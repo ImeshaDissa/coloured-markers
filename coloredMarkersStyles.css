@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.marker {
+    width: 200px;
+    height: 25px ;
+    margin: 10px auto;
+}
+
+.cap {
+    width: 60px;
+    height: 25px;
+}
+
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+  
+.cap, .sleeve {
+    display: inline-block;
+}
+
+.red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+ 
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 blue;
+}
+
+/* verticle here */
+
+.markerVerticle {
+    height: 200px;
+    width: 25px ;
+    margin:  40px 5px ;
+    background-color: rgb(162, 27, 27);
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.cap2 {
+    width: 250px;
+    height: 60px;
+}
+
+.sleeve2 {
+    width: 25px;
+    height: 110px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top: 10px double rgba(0, 0, 0, 0.75);
+}
+  
+.cap, .sleeve {
+    display: inline-block;
+}
+
+.yellow{
+    background: linear-gradient(to right, rgb(207, 182, 106), rgb(232, 198, 28), rgb(204, 179, 97));
+    box-shadow: 0 0 20px 0 rgba(204, 192, 21, 0.8);
+}
+
+.cyan{
+    background: linear-gradient(to right, rgb(96, 174, 174), rgb(67, 225, 225), rgb(96, 174, 174));
+    box-shadow: 0 0 20px 0 rgba(96, 223, 230, 0.8);
+}
+
+.magenta{
+    background: linear-gradient(to right, rgb(168, 96, 168), rgb(238, 108, 238), rgb(208, 144, 208));
+    box-shadow: 0 0 20px 0 rgba(195, 58, 126, 0.8);
+}
+
+p{ 
+    margin: 5px auto 0 8px;
+    align-self: center;
+    font-weight: bold;
+    font-family: 'algerian';
+    font-size: small;
+}
